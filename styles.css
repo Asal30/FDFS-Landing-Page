@@ -50,28 +50,23 @@ body {
 .links div {
   font-size: 0.9rem;
   font-weight: 500;
+  padding: 5px 10px;
   color: var(--white);
   cursor: pointer;
   transition: 0.3s;
 }
 
 .links div:hover {
-  color: var(--secondary-color);
+  /* color: var(--secondary-color); */
+  color: #255784;
+  background: #7aa7ba;
+  border-radius: 20%;
+  box-shadow: 0 0 10px #7aa7ba, 0 0 40px #7aa7ba,0 0 80px #7aa7ba;
+
 }
 
 .links div span {
   font-size: 1.2rem;
-}
-
-.links .shopping__cart {
-  height: 50px;
-  width: 50px;
-  display: grid;
-  place-content: center;
-  border-radius: 100%;
-  font-size: 1.2rem;
-  color: var(--primary-color-dark);
-  background-color: var(--white);
 }
 
 .content {
@@ -131,9 +126,27 @@ body {
   color: var(--secondary-color);
 }
 
+.tryNow a {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20%;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: o.2s;
+}
+.tryNow a:hover {
+  color: #255784;
+  background: #7aa7ba;
+  box-shadow: 0 0 10px #7aa7ba, 0 0 40px #7aa7ba,0 0 80px #7aa7ba;
+}
+
 .featured__item {
   position: absolute;
-  transform: rotate(-90deg);
 }
 
 .featured__item h4 {
@@ -147,62 +160,11 @@ body {
   color: var(--white);
 }
 
-.contact {
-  position: absolute;
-  right: 0;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  color: var(--white);
-  transform: rotate(-90deg);
-}
-
-.contact span {
-  height: 40px;
-  width: 40px;
-  display: grid;
-  place-content: center;
-  border-radius: 100%;
-  font-size: 1.2rem;
-  color: var(--primary-color-dark);
-  background-color: var(--white);
-  transform: rotate(90deg);
-}
-
 .footer {
   padding: 1rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.socials {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.socials span {
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--white);
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.socials span:hover {
-  color: var(--secondary-color);
-}
-
-.slides {
-  font-size: 2rem;
-  font-weight: 600;
-  color: var(--white);
-}
-
-.slides span {
-  font-size: 1rem;
-  font-weight: 400;
 }
 
 @media (width < 640px) {
