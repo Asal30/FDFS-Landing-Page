@@ -197,7 +197,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
 }
-li,a,b{
+.fdfs{
   font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;
   color: white;
@@ -206,7 +206,7 @@ li,a,b{
   list-style: none;
   font-weight: 500;
 }
-a:hover{
+.fdfs:hover{
   color: #00eeff;
   scale: 105%;
 }
