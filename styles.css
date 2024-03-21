@@ -60,7 +60,8 @@ body {
   color: #255784;
   background: #7aa7ba;
   border-radius: 20%;
-  box-shadow: 0 0 10px #7aa7ba, 0 0 40px #7aa7ba,0 0 80px #7aa7ba;
+  transition: 0.5s;
+  box-shadow: 0 0 5px #7aa7ba, 0 0 10px #7aa7ba,0 0 15px #7aa7ba;
 
 }
 
@@ -144,7 +145,8 @@ body {
 .tryNow a:hover {
   color: #255784;
   background: #7aa7ba;
-  box-shadow: 0 0 10px #7aa7ba, 0 0 40px #7aa7ba,0 0 80px #7aa7ba;
+  transition: 0.5s;
+  box-shadow: 0 0 5px #7aa7ba, 0 0 10px #7aa7ba,0 0 15px #7aa7ba;
 }
 
 .featured__item {
