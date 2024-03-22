@@ -129,6 +129,7 @@ body {
 .tryNow a {
   position: relative;
   display: inline-block;
+  text-align: center;
   padding: 5px 10px;
   border-radius: 20%;
   color: #fff;
