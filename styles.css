@@ -143,6 +143,7 @@ body {
 .tryNow a:hover {
   color: #255784;
   background: #7aa7ba;
+  transition: 0.3s;
   box-shadow: 0 0 10px #7aa7ba, 0 0 40px #7aa7ba,0 0 80px #7aa7ba;
 }
 
