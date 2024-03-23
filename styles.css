@@ -31,6 +31,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  flex-direction: column;
   background-image: linear-gradient(to right bottom, #7aa7ba, #0d1a20);
 }
 
@@ -186,7 +187,6 @@ body {
 .featured_item p {
   color: var(--white);
 }
-
 .productsText h4{
   /* position: absolute; */
   /* padding-top: 3%; */
@@ -329,14 +329,6 @@ body {
   justify-content: center;
 }
 
-@media (width < 1200px){
-  .header {
-    position: absolute;
-    top: 1rem;
-    left: 30%;
-  }
-}
-
 @media (width < 640px) {
    .header {
     top: 1rem;
@@ -353,5 +345,12 @@ body {
     align-items: center;
     margin: 0%;
 
+  }
+}
+@media (width < 1200px){
+  .header {
+    position: absolute;
+    top: 1rem;
+    left: 30%;
   }
 }
