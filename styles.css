@@ -358,11 +358,26 @@ body {
 
 .image__img2 {
   max-width: 400px;
-  width: 66%;
-  /* margin: 60px 50px; */
+  width: 80%;
+  margin: 20px 60px;
+  scale: 0.86;
   /* margin-right: 25%; */
-  border: 2px solid #7aa7ba;
-  border-radius: 80px;
+  /* border: 2px solid #7aa7ba; */
+  /* border-radius: 80px; */
+  /* box-shadow: 5px 5px 5px 5px rgba(39, 123, 165, 0.596); */
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  /* object-fit: cover; */
+}
+.image__img3 {
+  max-width: 400px;
+  width: 80%;
+  margin: 20px 60px;
+  scale: 0.85;
+  /* margin-right: 25%; */
+  /* border: 2px solid #7aa7ba; */
+  /* border-radius: 80px; */
   /* box-shadow: 5px 5px 5px 5px rgba(39, 123, 165, 0.596); */
   display:flex;
   align-items: center;
