@@ -384,6 +384,20 @@ body {
   justify-content: center;
   /* object-fit: cover; */
 }
+.image__img4 {
+  max-width: 400px;
+  width: 60%;
+  margin: 20px 60px;
+  scale: 1.1;
+  /* margin-right: 25%; */
+  /* border: 2px solid #7aa7ba; */
+  /* border-radius: 80px; */
+  /* box-shadow: 5px 5px 5px 5px rgba(39, 123, 165, 0.596); */
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  /* object-fit: cover; */
+}
 
 .image__description {
   position: absolute;
