@@ -421,6 +421,15 @@ body {
   transform: translateY(0);
 }
 
+.logo1 {
+  max-width: 100px;
+  width: 90%;
+  scale: 1.1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (width < 640px) {
    .header {
     top: 1rem;
