@@ -153,6 +153,7 @@ body {
 }
 .tryNow a {
   position: relative;
+  font-family: "Poppins", sans-serif;
   display: inline-block;
   text-align: center;
   padding: 5px 10px;
