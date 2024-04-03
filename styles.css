@@ -266,7 +266,7 @@ body {
 
 .page3 {
   min-height: 100vh;
-  max-width: 1300px;
+  max-width: 1500px;
   margin: auto;
   padding: 1rem;
   display: flex;
@@ -430,13 +430,12 @@ body {
 footer{
 	position:relative;
 	width:100%;
-	height:350px;
+	height:30vh;
 	padding:35px 100px;
 	background:#002a3db7;
 	display:flex;
 	justify-content:space-between;
 	flex-wrap:wrap;
-	
 }
 
 footer .footer_container{
@@ -587,13 +586,16 @@ footer p{
   }
 }
 
-@media (width <= 1300px){
+@media (width <= 1305px){
   .devPics {
-    width: 480px;
+    width: 500px;
   }
   .cardDetails{
     margin: 20px;
   } 
+  footer{
+    height: 60vh;
+  }
 }
 
 @media(width <=992px){
@@ -626,12 +628,15 @@ footer p{
     width: 80%;
     margin: 40px 0px;
   }
-    footer .container .sec.aboutus{
-      width:100%;
-    }
-    .contact .info{
-      width: 100%;
-    }    
+  footer{
+    height: 70vh;
+  }
+  footer .container .sec.aboutus{
+    width:100%;
+  }
+   .contact .info{
+    width: 100%;
+  }    
 }
 
 @media (width <= 768px) {
@@ -668,6 +673,28 @@ footer p{
   .page2 {
     align-items: center;
   }
+  footer{
+    height: 85vh;
+    padding:20px 20px;
+  }
+  footer .footer_container .sec{
+    margin-right:0px;
+  }
+  
+  footer .footer_container .sec.aboutus{
+    width:100%;
+  }
+  footer .footer_container .sec.quickLinks{
+    width:100%;
+    margin-left:0px;
+  }
+  footer .footer_container .sec.contact{
+    width:100%;
+  }
+   footer .footer_container h2:before{
+    width:100%;
+    height: 1.5px;
+  }
 
   /* .contact {
     right: -4rem;
@@ -681,7 +708,7 @@ footer p{
 
 
 
-@media(width <= 500px){
+@media(width <= 575px){
     .links{
       width: 100%;
       margin: 0;
