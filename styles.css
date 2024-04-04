@@ -787,18 +787,22 @@ footer p{
 }
 @media(height <= 975px){
   .featured_item {
-    top: 33rem;
+    top: 35rem;
   }
 }
 @media(height <= 775px){
   .featured_item {
-    margin-top: -3rem;
+    margin-top: -2rem;
   }
   .featured_item2 {
       font-size: 0.9rem;
     }
 }
-
+@media(height <= 650px){
+  .featured_item {
+    margin-top: -5rem;
+  }
+}
 @media(width <= 375px){
   .links div {
     padding: 0px 3px;
