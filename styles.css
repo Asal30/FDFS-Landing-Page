@@ -789,6 +789,9 @@ footer p{
   .featured_item {
     margin-top: 6rem;
   }
+  .featured_item2 {
+    font-size: 0.9rem;
+  }
 }
 @media(height <= 775px){
   .featured_item {
