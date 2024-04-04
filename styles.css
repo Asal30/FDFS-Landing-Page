@@ -781,4 +781,37 @@ footer p{
     .devPics {
       width: 349px;
     }
+    footer{
+      height: 100%;
+    }
+}
+@media(height <= 975px){
+  .featured_item {
+    top: 33rem;
+  }
+}
+@media(height <= 775px){
+  .featured_item {
+    margin-top: -3rem;
+  }
+  .featured_item2 {
+      font-size: 0.9rem;
+    }
+}
+
+@media(width <= 375px){
+  .links div {
+    padding: 0px 3px;
+  }
+  .header h1{
+    /* position: absolute; */
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: 2rem;
+    width: 100vw;
+    text-align: center;
+  }
+  .featured_item {
+    top: 26rem;
+  }
 }
