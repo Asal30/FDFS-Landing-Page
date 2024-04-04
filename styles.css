@@ -787,7 +787,7 @@ footer p{
 }
 @media(height <= 975px){
   .featured_item {
-    top: 35rem;
+    margin-top: 6rem;
   }
 }
 @media(height <= 775px){
